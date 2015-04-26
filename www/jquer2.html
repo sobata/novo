@@ -1,0 +1,329 @@
+<!DOCTYPE html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--Declare page as mobile friendly --> 
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0"/>
+<!-- Declare page as iDevice WebApp friendly -->
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<!-- iDevice WebApp Splash Screen, Regular Icon, iPhone, iPad, iPod Retina Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/splash/splash-icon.png"> 
+<!-- iPhone 3, 3Gs -->
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen.png" 			media="screen and (max-device-width: 320px)" /> 
+<!-- iPhone 4 -->
+<link rel="apple-touch-startup-image" href="images/splash/splash-screen@2x.png" 		media="(max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2)" /> 
+<!-- iPhone 5 -->
+<link rel="apple-touch-startup-image" sizes="640x1096" href="images/splash/splash-screen@3x.png" />
+
+<!-- Page Title -->
+<title> Boletin ao MAR | Meteomarinha</title>
+
+<!-- Stylesheet Load -->
+<link href="styles/style.css"				rel="stylesheet" type="text/css">
+<link href="styles/framework-style.css" 	rel="stylesheet" type="text/css">
+<link href="styles/framework.css" 			rel="stylesheet" type="text/css">
+<link href="styles/bxslider.css"			rel="stylesheet" type="text/css">
+<link href="styles/swipebox.css"			rel="stylesheet" type="text/css">
+<link href="styles/icons.css"				rel="stylesheet" type="text/css">
+<link href="styles/retina.css" 				rel="stylesheet" type="text/css" media="only screen and (-webkit-min-device-pixel-ratio: 2)" />
+
+
+<!--Page Scripts Load -->
+<script src="scripts/jquery.min.js"		 type="text/javascript"></script>	
+<script src="scripts/snap.js"			 type="text/javascript"></script>
+<script src="scripts/hammer.js"			 type="text/javascript"></script>	
+<script src="scripts/jquery-ui-min.js"   type="text/javascript"></script>
+<script src="scripts/subscribe.js"		 type="text/javascript"></script>
+<script src="scripts/contact.js"		 type="text/javascript"></script>
+<script src="scripts/jquery.swipebox.js" type="text/javascript"></script>
+<script src="scripts/bxslider.js"		 type="text/javascript"></script>
+<script src="scripts/colorbox.js"		 type="text/javascript"></script>
+<script src="scripts/retina.js"			 type="text/javascript"></script>
+<script src="scripts/custom.js"			 type="text/javascript"></script>
+<script src="scripts/framework.js"		 type="text/javascript"></script>
+<script src="scripts/fastclick.js"		 type="text/javascript"></script>
+
+</head>
+<body>
+
+<div id="preloader">
+	<div id="status">
+    	<p class="center-text">
+			Carregando...
+            <em>Efetuando leitura de dados !</em>
+        </p>
+    </div>
+</div>
+
+
+
+<div class="all-elements">
+    
+    <div id="sidebar" class="page-sidebar">
+        <div id="sidebar" class="page-sidebar">
+        <div class="page-sidebar-scroll">
+			<div class="sidebar-header">
+            	<a href="#" class="delete-sidebar"></a>
+            	<img class="sidebar-logo" src="images/misc/logo.png" width="200" alt="img">
+            </div>
+            
+            <p class="sidebar-separator">MENU</p>
+            <a href="index.html" class="nav-item home-nav">Inicio<em class="nav-onit"></em></a>
+            <a href="type.html" class="nav-item aviso-nav">Avisos de Mau Tempo<em class="nav-page"></em></a>
+            <a href="jquer.html" class="nav-item meteromarinha-nav">METEOROMARINHA<em class="nav-page"></em></a>
+            <a href="jquer2.html" class="nav-item radio-nav">Radio Nautico<em class="nav-page"></em></a>
+            <a href="other.html" class="nav-item maps-nav">Cartas Sinótica<em class="nav-page"></em></a>
+            <a href="videos.html" class="nav-item navegantes-nav">Aviso aos navegantes<em class="nav-page"></em></a>
+            <a href="contact.html" class="nav-item escala-nav">Meteograma	<em class="nav-page"></em></a>
+            <p class="sidebar-separator">MANTIDO POR</p>
+            <a href="#" class="nav-item marinha-nav">MARINHA DO BRASIL<em class="nav-link"></em></a>
+            <a href="#" class="nav-item dhn-nav">DHN<em class="nav-link"></em></a>
+            <a href="#" class="nav-item rumar-nav">RUMAR<em class="nav-link"></em></a>
+        </div>
+    </div>
+    </div>
+       
+    <div id="content" class="page-content">
+        <div class="page-header">
+            <p class="logo">
+                <img src="images/misc/logo.png" width="120">
+            </p>       <a href="#" class="deploy-sidebar"></a>
+        </div>       
+      
+        
+       
+    
+        <!--The Tables-->   
+          
+        <div class="container no-bottom">
+           <h4 class="uppercase">Radio Náutico</h4>
+           <p> boletins de aviso diarios acordo com a área afetada.</p>
+           <div class="decoration"></div>
+        <div class="container no-bottom">
+        <h4 class="heading-icon">Escolha a Região ou tipo de aviso </h4>
+        	<div class="dropdown-menu">
+            	<a href="#" class="dropdown-deploy"><em class="left-dropdown bg-light"></em>MENU</a>
+                <a href="#" class="dropdown-hidden"><em class="left-dropdown bg-light"></em>Avisos da Radio <br>
+Náuticos</a>
+                <a href="#" class="dropdown-item bg-light">Navare V</a>
+                <a href="#" class="dropdown-item bg-light">Costa Norte</a>
+                <a href="#" class="dropdown-item bg-light">Costa Leste</a>
+                <a href="#" class="dropdown-item bg-light">Costa Oeste</a>
+                <a href="#" class="dropdown-item bg-light">Costa Sul</a>
+                <a href="#" class="dropdown-item bg-light">Bacia Amazônica</a>
+                <a href="#" class="dropdown-item bg-light">Hidrovias em Geral</a>
+                <a href="#" class="dropdown-item bg-light">Hidrovias Paraguai - PR</a>
+                <a href="#" class="dropdown-item bg-light">Hidrovias Tiete - PR</a>
+                <a href="#" class="dropdown-item bg-light">Avisos Radio SAR</a>
+                <div class="dropdown-bottom-border"></div>
+            </div>     
+        </div>
+       <h4 class="uppercase">Costa Norte Costeiros</h4> 
+           <p> Costa Norte - 11/03/2015 03:23 UTC  </p>
+        <div class="decoration"></div>
+        <div class="container no-bottom">
+            <div class="toggle-container-v5"> 
+                <div class="toggle-v5">
+                    <a href="#" class="show-toggle-v5">N 0217/15</a>
+                    <a href="#" class="hide-toggle-v5">AVISO N 0217/15 </a>
+                    <div class="clear"></div>
+                    <div class="toggle-content-v5">
+                        <div class="toggle-decoration-v5"></div>
+                        <p><p>PONTA DE QUATIPURU</br>
+CARTA 21400</br>
+FAROL QUATIPURU G 0065 00-42.74S 046-57.66W</br> 
+DESTRUIDO</br>
+CANCELAR ESTE AVISO 040359 UTC SET 15</p>
+                        
+                    </div> 
+                </div> 
+            </div>
+        </div>     
+        <div class="container no-bottom">
+            <div class="toggle-container-v5"> 
+                <div class="toggle-v5">
+                    <a href="#" class="show-toggle-v5">N 0189/15</a>
+                    <a href="#" class="hide-toggle-v5">AVISO N 0189/15</a>
+                    <div class="clear"></div>
+                    <div class="toggle-content-v5">
+                        <div class="toggle-decoration-v5"></div>
+                        <p> 
+FOZ DO RIO CALCOENE <br>
+CARTA 21200(INT 4195)<br>
+FAROL CALCOENE <br>
+- G 0001 - 02-30.41N 050-48.38W <br>
+APAGADO<br>
+CANCELAR ESTE AVISO 28359 UTC AGO 15. 
+                        </p>
+                    </div> 
+                </div> 
+            </div>
+        </div>  
+        <div class="container no-bottom">
+            <div class="toggle-container-v5"> 
+                <div class="toggle-v5">
+                    <a href="#" class="show-toggle-v5">N 0181/15</a>
+                    <a href="#" class="hide-toggle-v5">AVISO N 0181/15</a>
+                    <div class="clear"></div>
+                    <div class="toggle-content-v5">
+                        <div class="toggle-decoration-v5"></div>
+                        <p>
+MORRO BRANCO<br>
+CARTA 21900 INT 2112<br>
+FAROL MORRO BRANCO - G 0125.5 - 04-09.51S 038-06.45W <br> APAGADO.<br>
+CANCELAR ESTE AVISO 250300 UTC AGO 15
+                        </p>
+                    </div> 
+                </div> 
+            </div>
+        </div>     
+        <div class="container no-bottom">
+            <div class="toggle-container-v5"> 
+                <div class="toggle-v5">
+                    <a href="#" class="show-toggle-v5">N 0106/15</a>
+                    <a href="#" class="hide-toggle-v5">AVISO N 0106/15</a>
+                    <div class="clear"></div>
+                    <div class="toggle-content-v5">
+                        <div class="toggle-decoration-v5"></div>
+                        <p>
+                           NORTE DO PORTO DO MUCURIPE  <br>       
+CARTA 701 <br>
+SERVICO DE MERGULHO PARA REPARO DE GASODUTO <br>COM 0,5 MILHA DE RAIO CENTRADA NA POSICAO: 03-40.11S 038-27.68W.<br>
+PERIODO: 25/JAN A 10/ABR 15<br>
+EMBARCACAO ENVOLVIDA: OCEANICA II E ASSO VENTISETTE<br>
+RECOMENDA-SE CAUTELA<br>
+CANCELAR COSTEIRO N 0077/15.<br>
+CANCELAR ESTE AVISO 110359 UTC ABR 15.<br>
+                        </p>
+                    </div> 
+                </div> 
+            </div>
+        </div>  
+        <div class="container no-bottom">
+            <div class="toggle-container-v5"> 
+                <div class="toggle-v5">
+                    <a href="#" class="show-toggle-v5">N 0078/15</a>
+                    <a href="#" class="hide-toggle-v5">AVISO N 0078/15</a>
+                    <div class="clear"></div>
+                    <div class="toggle-content-v5">
+                        <div class="toggle-decoration-v5"></div>
+                        <p> 
+PROXIMIDADES DO PORTO DO MUCURIPE<br>
+CARTA 701<br>
+SERVICO DE MERGULHO PARA CALÇAMENTO DE OLEODUTO E GASODUTO <br> ENTRE AS POSICOES:
+03-40.66S 038-27.62W; 03-41.08S 038-27.59W;<br>
+03-41.65S 038-27.43W; 03-42.00S 038-27.26W;<br>
+03-42.54S 038-27.06W; 03-43.14S 038-27.66W;<br>
+PERIODO: 29/JAN A 13/MAR <br>
+EMBARCACAO ENVOLVIDA: OCEANICA SUB II E ANKH<br>
+RECOMENDA-SE CAUTELA <br>
+CANCELAR ESTE AVISO 140359 UTC MAR 15
+                        </p>
+                    </div> 
+                </div> 
+            </div>
+        </div> 
+       <h4 class="uppercase">Costa Norte Locais</h4>
+           <p>Costa Norte - 11/03/2015 03:23 UTC </p>
+            <div class="container no-bottom">
+            <div class="toggle-container-v5"> 
+                <div class="toggle-v5">
+                    <a href="#" class="show-toggle-v5">N  7327/15</a>
+                    <a href="#" class="hide-toggle-v5">AVISON 7327/15 </a>
+                    <div class="clear"></div>
+                    <div class="toggle-content-v5">
+                        <div class="toggle-decoration-v5"></div>
+                        <p>
+PROXIMIDADES DO PORTO DE PECEM<br>
+CARTA 705<br>
+DRAGAGEM ENTRE AS POSICOES:<br>
+1-03-31.82S 038-48.78W<br>
+2-03-31.73S 038-48.88W<br>
+3-03-31.70S 038-49.48W<br>
+4-03-31.55S 038-49.53W<br>
+5-03-31.55S 038-48.82W<br>
+6-03-31.65S 038-48.70W<br>
+AREA DE DESPEJO:<br>
+1-03-31.22S 038-48.17W<br>
+2-03-31.17S 038-48.12W<br>
+3-03-31.53S 038-47.82W<br>
+4-03-31.58S 038-47.87W<br>
+PERIODO: 09/MAR A 09/JUL<br>
+EMBARCACAO ENVOLVIDA: DRAGA ELBE<br>
+RECOMENDA-SE CAUTELA<br>
+CANCELAR ESTE AVISO 100359 UTC JUL 15. </p>
+                        
+                    </div> 
+                </div> 
+            </div>
+        </div> <div class="container no-bottom">
+            <div class="toggle-container-v5"> 
+                <div class="toggle-v5">
+                    <a href="#" class="show-toggle-v5">N 7325/15</a>
+                    <a href="#" class="hide-toggle-v5">AVISO N 7325/15</a>
+                    <div class="clear"></div>
+                    <div class="toggle-content-v5">
+                        <div class="toggle-decoration-v5"></div>
+                        <p>
+CARTA 701<br>
+PORTO DE FORTALEZA - VOLTA DA JUREMA<br>
+OBRA DE ENROCAMENTO ENTRE AS POSICOES:<br>
+03-43.48S 038-29.68W<br>
+03-43.45S 038-29.67W<br>
+03-43.37S 038-29.64W<br>
+03-43.36S 038-29.67W<br>
+03-43.35S 038-29.67W<br>
+03-43.36S 038-29.64W<br>
+PERIODO: 06/MAR A 06/SET<br>
+RECOMEDA-SE CAUTELA<br>
+CANCELAR LOCAL N 7320/15<br>
+CANCELAR ESTE AVISO EM 070300 UTC SET 15</p>
+                        
+                    </div> 
+                </div> 
+            </div>
+        </div>
+           
+        <div class="container no-bottom"></div>                
+        <div class="sliding-door-clear"></div>
+        </div>
+        <div class="footer">
+            <a href="#" class="footer-book"></a>
+            <a href="#" class="footer-load"></a>
+            <a href="#" class="footer-config"></a>
+            <a href="#" class="footer-up go-up"></a>
+            <em>Marinha do Brasil</em>
+        </div>  
+	</div>
+</div>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
