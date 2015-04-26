@@ -1,0 +1,40 @@
+{
+  "ProjectName": "rumar",
+  "ProjectGuid": "45e16c87-448b-4a4c-814a-3d7daf782ff0",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.rumar",
+  "DisplayName": "rumar",
+  "Author": "",
+  "Description": "",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "3.5.0",
+  "AndroidPermissions": [],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "false",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{13e0e7f9-8117-4b3a-8d8d-61f4810e8f8c}",
+  "WP8ProductID": "{f9a5d23d-12e5-4d13-942c-31e3cd25f451}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.rumar",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
